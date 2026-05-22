@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Advanced Mathematics Tutoring",
+    "description": "Master algebra, calculus, geometry, and problem-solving techniques with personalized online tutoring sessions.",
+    "thumbnail": "https://images.unsplash.com/photo-1509228468518-180dd4864904",
+    "category": "Mathematics",
+    "price": "45",
+    "duration": "8 Weeks",
+    "instructor": "Sarah Williams"
+  },
+  {
+    "title": "Physics for HSC Students",
+    "description": "Understand mechanics, electricity, waves, and modern physics through interactive lessons and practice sessions.",
+    "thumbnail": "https://images.unsplash.com/photo-1532094349884-543bc11b234d",
+    "category": "Physics",
+    "price": "50",
+    "duration": "10 Weeks",
+    "instructor": "David Miller"
+  },
+  {
+    "title": "English Communication Skills",
+    "description": "Improve speaking, listening, reading, and writing skills for academic and professional success.",
+    "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    "category": "English",
+    "price": "35",
+    "duration": "6 Weeks",
+    "instructor": "Emma Brown"
+  },
+  {
+    "title": "Complete Chemistry Crash Course",
+    "description": "Learn organic, inorganic, and physical chemistry with live examples and exam-focused preparation.",
+    "thumbnail": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69",
+    "category": "Chemistry",
+    "price": "55",
+    "duration": "9 Weeks",
+    "instructor": "Michael Carter"
+  },
+  {
+    "title": "Biology Essentials for Beginners",
+    "description": "Explore genetics, human anatomy, ecology, and cell biology with engaging tutor-led sessions.",
+    "thumbnail": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8",
+    "category": "Biology",
+    "price": "40",
+    "duration": "7 Weeks",
+    "instructor": "Sophia Martinez"
+  },
+  {
+    "title": "Java Programming Fundamentals",
+    "description": "Build a strong foundation in Java programming with hands-on coding exercises and projects.",
+    "thumbnail": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+    "category": "Programming",
+    "price": "65",
+    "duration": "10 Weeks",
+    "instructor": "James Anderson"
+  },
+  {
+    "title": "Python for Beginners",
+    "description": "Learn Python programming from scratch, including variables, functions, loops, and mini projects.",
+    "thumbnail": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935",
+    "category": "Programming",
+    "price": "60",
+    "duration": "8 Weeks",
+    "instructor": "Olivia Wilson"
+  },
+  {
+    "title": "Web Development Bootcamp",
+    "description": "Learn HTML, CSS, JavaScript, and responsive web design to create modern websites.",
+    "thumbnail": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "category": "Web Development",
+    "price": "80",
+    "duration": "12 Weeks",
+    "instructor": "Daniel Thompson"
+  },
+  {
+    "title": "Digital Electronics Concepts",
+    "description": "Understand logic gates, circuits, flip-flops, and digital systems with practical examples.",
+    "thumbnail": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    "category": "Electronics",
+    "price": "70",
+    "duration": "9 Weeks",
+    "instructor": "William Harris"
+  },
+  {
+    "title": "Business Communication Masterclass",
+    "description": "Develop presentation, writing, and communication skills for academic and workplace success.",
+    "thumbnail": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+    "category": "Business",
+    "price": "38",
+    "duration": "5 Weeks",
+    "instructor": "Isabella Clark"
+  }
+]
