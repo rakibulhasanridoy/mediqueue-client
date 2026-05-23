@@ -33,7 +33,7 @@ const TutorsPage = () => {
         if (startDateGte) query.append("startDateGte", startDateGte);
         if (startDateLte) query.append("startDateLte", startDateLte);
 
-        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/tutors?${query.toString()}`);
+        const res = await fetch(`/api/backend/tutors?${query.toString()}`);
         if (!res.ok) throw new Error("Failed to fetch tutors");
         const data = await res.json();
         setTutors(data);

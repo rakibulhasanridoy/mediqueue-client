@@ -89,7 +89,7 @@ export default function MyTutorsPage() {
 
     try {
       setLoading(true);
-      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/tutors`);
+      const res = await fetch(`${/api/backend}/tutors`);
       if (!res.ok) {
         const errData = await res.json().catch(() => ({}));
         throw new Error(errData?.error || `Server error: ${res.status}`);
@@ -180,7 +180,7 @@ export default function MyTutorsPage() {
         totalSlot: parseInt(editForm.totalSlot) || 0,
       };
 
-      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/tutors/${editingTutor._id}`, {
+      const res = await fetch(`${/api/backend}/tutors/${editingTutor._id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -224,7 +224,7 @@ export default function MyTutorsPage() {
         toast.error("Session expired. Please log in again.");
         return;
       }
-      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/tutors/${deletingTutorId}`, {
+      const res = await fetch(`${/api/backend}/tutors/${deletingTutorId}`, {
         method: "DELETE",
         headers: {
           Authorization: `Bearer ${token}`,

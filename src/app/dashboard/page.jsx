@@ -75,7 +75,7 @@ export default function DashboardPage() {
       }
 
       const userId = session?.user?.id || "me";
-      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/enrollments/${userId}`, {
+      const res = await fetch(`${/api/backend}/enrollments/${userId}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

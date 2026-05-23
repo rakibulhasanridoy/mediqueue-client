@@ -73,7 +73,7 @@ export default function EnrollmentButton({ course }) {
         studentPhone: phone,
       };
 
-      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/enrollments`, {
+      const res = await fetch(`${/api/backend}/enrollments`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

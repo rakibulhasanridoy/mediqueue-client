@@ -20,7 +20,7 @@ const CancelEnrollButton = ({ bookingId, onCancelSuccess }) => {
         return;
       }
 
-      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/enrollments/${bookingId}`, {
+      const res = await fetch(`${/api/backend}/enrollments/${bookingId}`, {
         method: "PATCH",
         headers: {
           Authorization: `Bearer ${token}`,
