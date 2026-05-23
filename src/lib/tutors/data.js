@@ -12,7 +12,7 @@ export const fetchTutors = async (params = {}) => {
     if (params.startDateLte) query.append('startDateLte', params.startDateLte);
   }
 
-    const res = await fetch(`${/api/backend}/tutors?${query.toString()}`, {
+    const res = await fetch(`/api/backend/tutors?${query.toString()}`, {
     cache: 'no-store'
   });
   if (!res.ok) throw new Error(`Failed to fetch tutors: ${res.status}`);
@@ -26,9 +26,9 @@ export const fetchFeaturedTutors = async () => {
 
 
   const urls = [
-    `${/api/backend}/tutors/featured`,
-    `${/api/backend}/tutors?featured=true`,
-    `${/api/backend}/tutors?limit=3`,
+    `/api/backend/tutors/featured`,
+    `/api/backend/tutors?featured=true`,
+    `/api/backend/tutors?limit=3`,
   ];
 
 

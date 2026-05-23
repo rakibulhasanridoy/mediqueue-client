@@ -34,7 +34,7 @@ export default function TutorDetails() {
     const fetchTutor = async () => {
       try {
         setLoading(true);
-        const res = await fetch(`${/api/backend}/tutors/${id}`);
+        const res = await fetch(`/api/backend/tutors/${id}`);
         if (!res.ok) {
           throw new Error("Tutor profile not found");
         }

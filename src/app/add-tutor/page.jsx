@@ -93,7 +93,7 @@ export default function AddTutorPage() {
 
 
 
-      const res = await fetch(`${/api/backend}/tutors`, {
+      const res = await fetch(`/api/backend/tutors`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
